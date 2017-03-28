@@ -1,0 +1,20 @@
+defaults: &defaults
+  adapter: postgresql
+  username: 
+  password: 
+  host: 127.0.0.1
+  port: 5432
+  timeout: 5000
+  pool: 20
+
+development:
+  database: stakan_dev
+  <<: *defaults
+
+test:
+  database: stakan_test
+  <<: *defaults
+
+production:
+  database: stakan_prod
+  <<: *defaults
