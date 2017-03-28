@@ -1,24 +1,17 @@
-# README
+# STAKAN APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby version
 
-Things you may want to cover:
+`2.4.1`
 
-* Ruby version
+# Rails version
 
-* System dependencies
+`5.0.2`
 
-* Configuration
+# System dependencies
 
-* Database creation
+PostgreSQL 9.0 or later
 
-* Database initialization
+# Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rails db:setup`
